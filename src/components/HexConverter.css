@@ -1,4 +1,13 @@
 /* src/components/HexConverter.css */
+.app-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s ease;
+}
+
 .converter {
     background: white;
     padding: 40px 30px;
@@ -6,8 +15,6 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 320px;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 50px;
 }
 
 h1 {
@@ -39,10 +46,6 @@ input:focus {
     color: #333;
     min-height: 28px;
     margin-bottom: 20px;
-}
-
-.rgb-result {
-    color: #333;
 }
 
 .error {

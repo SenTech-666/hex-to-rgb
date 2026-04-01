@@ -3,11 +3,7 @@ import HexConverter from './components/HexConverter';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <HexConverter />
-    </div>
-  );
+  return <HexConverter />;
 }
 
 export default App;
